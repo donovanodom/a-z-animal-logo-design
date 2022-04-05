@@ -2,3 +2,34 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.orca {
+  height: 50vw;
+  width: 100%;
+}
+
+.orca-filter {
+  background: #c0cbd1;
+}
+
+.orca-filter img {
+  mix-blend-mode: screen;
+  -webkit-filter: grayscale(100%) contrast(200%);
+  filter: grayscale(100%) contrast(200%);
+}
+
+.orca img {
+  width: 100%;
+}
+
+.orca svg {
+  width: 25vw;
+  position: absolute;
+  left: 30px;
+  top: 12.5vw;
+}

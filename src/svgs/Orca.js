@@ -1,7 +1,6 @@
-function Orca() {
+const Orca = () => {
   return (
     <svg
-      width="25vw"
       xmlns="http://www.w3.org/2000/svg"
       shapeRendering="geometricPrecision"
       textRendering="geometricPrecision"
@@ -17,6 +16,6 @@ function Orca() {
       ></path>
     </svg>
   );
-}
+};
 
 export default Orca;
