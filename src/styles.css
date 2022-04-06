@@ -14,9 +14,6 @@ body {
   align-items: center;
   width: 100%;
   height: 50vw;
-  position: absolute;
-  left: 0;
-  top: 0;
 }
 
 .logo-details {
@@ -28,17 +25,9 @@ body {
   width: 100%;
 }
 
-.orca-filter {
-  height: 50vw;
-  background: #c0cbd1;
-}
-
-.orca-filter img {
+.orca img {
   height: 50vw;
   width: 100%;
-  mix-blend-mode: screen;
-  -webkit-filter: grayscale(100%) contrast(200%);
-  filter: grayscale(100%) contrast(200%);
 }
 
 .orca svg {

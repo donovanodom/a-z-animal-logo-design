@@ -1,6 +1,6 @@
-import Orca from "./svgs/Orca";
+import Orca from "../svgs/Orca";
 
-const Logos = () => {
+const OrcaLogo = () => {
   return (
     <div className="logos">
       <div className="orca">
@@ -19,4 +19,4 @@ const Logos = () => {
   );
 };
 
-export default Logos;
+export default OrcaLogo;

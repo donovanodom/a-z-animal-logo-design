@@ -1,15 +1,15 @@
-import Orca from "./svgs/Orca";
+import KingCobra from "../svgs/KingCobra";
 
-const Logos = () => {
+const KingCobraLogo = () => {
   return (
     <div className="logos">
       <div className="orca">
         <div className="logo-grid">
-          <Orca />
+          <KingCobra />
           <div className="logo-details">
             <ul style={{ padding: "0", listStyle: "none", textAlign: "left" }}>
-              <li>Letter: O</li>
-              <li>Animal: Orca Whale</li>
+              <li>Letter: K</li>
+              <li>Animal: KingCobra </li>
               <li>Description: N/A</li>
             </ul>
           </div>
@@ -19,4 +19,4 @@ const Logos = () => {
   );
 };
 
-export default Logos;
+export default KingCobraLogo;

@@ -1,4 +1,4 @@
-import Logos from "./Logos";
+import Logos from "./Logos/Logos";
 import "./styles.css";
 
 export default function App() {
