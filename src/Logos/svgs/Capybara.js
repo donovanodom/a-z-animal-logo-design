@@ -1,6 +1,4 @@
-import React from "react";
-
-function Capybara() {
+const Capybara = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -18,6 +16,6 @@ function Capybara() {
       ></path>
     </svg>
   );
-}
+};
 
 export default Capybara;
