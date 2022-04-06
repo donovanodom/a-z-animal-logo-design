@@ -2,7 +2,7 @@ import Armadillo from "../svgs/Armadillo";
 
 const ArmadilloLogo = () => {
   return (
-    <div className="logos">
+    <div className="armadillo">
       <div className="logo-grid">
         <Armadillo />
         <div className="logo-details">

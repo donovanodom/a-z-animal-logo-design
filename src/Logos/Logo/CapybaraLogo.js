@@ -2,7 +2,7 @@ import Capybara from "../svgs/Capybara";
 
 const CapybaraLogo = () => {
   return (
-    <div className="logos">
+    <div className="capybara">
       <div className="logo-grid">
         <Capybara />
         <div className="logo-details">
